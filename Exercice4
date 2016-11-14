@@ -1,0 +1,178 @@
+// ConsoleApplication1.cpp : définit le point d'entrée pour l'application console.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+
+/*void remplirTableau(int tab[]) {
+	//Remplissage du tableau
+}
+
+void afficherTableau(int tab[]) {
+
+}*/
+
+enum SEXE {MASCULIN,FEMININ};
+
+struct Persone {
+	int age;
+	std::string nom, prenom;
+	SEXE sexe;
+
+};
+
+void ajouterPersonne(std::vector<Persone> v) {
+	std::cout << "j'ajoute une personne" << std::endl;
+	int age;
+	std::string nom, prenom;
+	std::string sexe_str;
+	SEXE s;
+
+	std::cout << "Indiquez l'age" << std::endl;
+	std::cin >> age;
+
+	std::cout << "Indiquez le nom" << std::endl;
+	std::cin >> nom;
+	std::cout << "Indiquez le prenom" << std::endl;
+	std::cin >> prenom;
+	std::cout << "Indiquez le sexe (M ou F)" << std::endl;
+	std::cin >> sexe_str;
+
+	if (sexe_str == "M")
+		s = SEXE::MASCULIN;
+	else if (sexe_str == "F")
+		s = SEXE::FEMININ;
+	else {
+		std::cout << "Erreur sur le sexe" << std::endl;
+		return;
+	}
+
+	Persone p = { age,nom,prenom,s };
+	v.push_back(p);
+}
+
+void afficherPersonne(std::vector<Persone> v) {
+	std::cout << "Index de la personne à afficher" << std::endl;
+
+	int index;
+	std::cin >> index;
+
+	if (index > v.size()) {
+		std::cout << "Erreur l'index est trop grand !!! " << std::endl;
+		return;
+	}
+
+	Persone p = v.at(index);
+	std::cout << "Age : " << p.age << std::endl;
+	std::cout << "Nom : " << p.nom << std::endl;
+	std::cout << "Prenom : " << p.prenom << std::endl;
+	std::cout << "Sexe : " << p.sexe << std::endl;
+}
+
+void supprimerPersonne(std::vector<Persone> v) {
+	std::cout << "Index de la personne à supprimer" << std::endl;
+
+	int index;
+	std::cin >> index;
+
+	if (index > v.size()) {
+		std::cout << "Erreur l'index est trop grand !!! " << std::endl;
+		return;
+	}
+
+	v.erase(v.begin() + index);
+}
+
+void help() {
+	std::cout << std::endl << "MENU : " << std::endl;
+	std::cout << "1-Ajouter une personne" << std::endl;
+	std::cout << "2-Afficher une personne" << std::endl;
+	std::cout << "3-Supprimer une personne" << std::endl;
+	std::cout << "4-Quitter le programme" << std::endl;
+}
+
+
+int main()
+{
+
+	/*std::cout << "Saisissez votre valeur  : " << std::endl;
+
+	int valeur;
+
+	std::cin >> valeur;
+
+	bool ok = false;
+
+	do{
+
+		if (valeur > 0 && valeur < 10) {
+			std::cout << "Ok la valeur est dans le bon interval" << std::endl;
+			ok = true;
+		}
+		else {
+			std::cout << "Nok la valeur n'est pas dans le bon interval" << std::endl;
+			std::cin >> valeur;
+		}
+
+	} while (!ok);
+
+	int resultat = valeur % 3;
+
+	std::cout << "Le resultat est : " << resultat << std::endl;*/
+
+
+	/*for (int i = 0;i < 10;i++) {
+		switch (i)
+		{
+		case 3:
+			std::cout << "Valeur de i = 3" << std::endl;
+			break;
+		case 5:
+			std::cout << "Valeur de i = 5" << std::endl;
+			break;
+		case 8:
+			std::cout << "Valeur de i = 8" << std::endl;
+			break;
+		default:
+			std::cout << "Valeur de i en dehors des valeurs 3,5 et 8" << std::endl;
+		}
+	}*/
+
+	/*int tab[10];
+	remplirTableau(tab);
+	afficherTableau(tab);*/
+
+	help();
+
+	int choix;
+	std::vector<Persone> persones;
+
+	std::cin >> choix;
+
+	switch (choix) {
+	case 1:
+		ajouterPersonne(persones);
+		break;
+	case 2:
+		afficherPersonne(persones);
+		break;
+	case3:
+		supprimerPersonne(persones);
+		break;
+	case 4:
+		help();
+		break;
+	case 5:
+		return EXIT_SUCCESS;
+		break;
+	default:
+		std::cout << "Valeur en dehors de la plage" << std::endl;
+	}
+
+	std::cout << "Nombre de personne dans le vector : " << persones.size() << std::endl;
+
+    return 0;
+}
+
