@@ -42,7 +42,7 @@ int* lireFichier(){
 
 }
 
-void sauvegardeTableauBinaire(int tab[], int taille){
+void sauvegardeTableauBinaire(string tab[], int taille){
     ofstream fout("tabBin.txt", ios::binary);
     if(!fout){
         cout << "Pbl à l'ouverture";
@@ -76,23 +76,25 @@ int* lireFichierBinaire(){
 
 int main()
 {
-    int tab[3] = {1,2,3};
+    string tab[3] = {"titi", "tutu", "toto"};
 
-    sauvegardeTableau(tab,3);
+    /*sauvegardeTableau(tab,3);
 
     int * tableau = lireFichier();
     for (int i = 0; i<3;i++){
         cout << tableau[i] << " " ;
     }
-    cout << endl;
+    cout << endl;*/
 
     sauvegardeTableauBinaire(tab,3);
     int * tableau2 = lireFichierBinaire();
+    cout << "debut" << endl;
     for (int i = 0; i<10;i++){
         cout << tableau2[i] << " " ;
     }
     cout << endl;
+    cout << "fin" << endl;
 
-    delete [] tableau;
+    //delete [] tableau;
     return 0;
 }
