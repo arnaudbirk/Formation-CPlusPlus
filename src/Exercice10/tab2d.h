@@ -4,7 +4,7 @@
 #include <iostream>
 
 class Tab2D{
-    private:
+    public:
         unsigned int nbColonne, nbLigne;
         double * tab;
         void alloue();

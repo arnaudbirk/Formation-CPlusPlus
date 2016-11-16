@@ -5,6 +5,7 @@ using namespace std;
 
  Tab2D::Tab2D(unsigned int col, unsigned int ligne):nbColonne(col),nbLigne(ligne)
 {
+     std::cout << "constructeur" << std::endl;
     if(nbColonne == 0 || nbLigne == 0) return;
     //tab = new double[nbColonne*nbLigne];
     alloue();
@@ -20,7 +21,16 @@ using namespace std;
 
  Tab2D::Tab2D(const Tab2D &source)
 {
-    copie(source);
+    nbColonne=source.nbColonne;
+    nbLigne=source.nbLigne;
+
+    unsigned taille = nbColonne*nbLigne;
+
+    tab = new double[taille];
+
+    for(unsigned int i=0;i<taille;i++){
+        tab[i]=source.tab[i];
+    }
 }
 
 Tab2D & Tab2D::operator=(const Tab2D &source)
@@ -91,11 +101,9 @@ Tab2D & Tab2D::operator+=(const double d)
 Tab2D operator+(const Tab2D &t1 , const Tab2D &t2){
     if(t1.nbColonne == t2.nbColonne && t1.nbLigne==t2.nbLigne){
         Tab2D t3(t1.nbColonne,t1.nbLigne);
-        std::cout << "ici" << std::endl;
         for(unsigned int i =0;i<(t3.nbColonne*t3.nbLigne);i++){
             t3.tab[i] = t1.tab[i] + t2.tab[i];
         }
-        t3.affiche();
         return t3;
     }
     else {
