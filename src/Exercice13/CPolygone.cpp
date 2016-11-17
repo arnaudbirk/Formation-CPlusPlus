@@ -15,7 +15,7 @@ double CPolygone::calculeAire()
 
 void CPolygone::affiche()
 {
-    cout <<this->getNom()<<" est un polygone qui a comme coordonnées ";
+    cout <<this->getNom()<<" est un polygone qui a comme coordonnees ";
     for(int i = 0; i<nbPts;i++){
         cout << "(" << this->getTab(i).getX()<<","<<this->getTab(i).getY() << ") ";
     }

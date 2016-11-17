@@ -14,7 +14,7 @@ double CRectangle::calculeAire()
 
 void CRectangle::affiche()
 {
-    cout <<this->getNom()<<" est un rectangle d'angle supérieur gauche (" << this->getTab(0).getX()<<","<<this->getTab(0).getY();
+    cout <<getNom()<<" est un rectangle d'angle superieur gauche (" << getTab(0).getX()<<","<<getTab(0).getY();
     cout <<") de longueur " << longueur << "et de largeur "<< largeur << endl;
 }
 

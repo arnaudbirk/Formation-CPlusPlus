@@ -4,7 +4,7 @@
 #include "CCercle.h"
 #include "CRectangle.h"
 #include "CPolygone.h"
-#include <vector >
+#include <vector>
 #include "CDessin.h"
 
 using namespace std;
