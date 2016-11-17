@@ -14,7 +14,7 @@ class Tab2D{
     public:
         Tab2D(unsigned int col=0, unsigned int ligne=0);
         ~Tab2D();
-        Tab2D( const Tab2D &source );
+        Tab2D( const Tab2D &source )=default;
 
         Tab2D & operator =( const Tab2D &source );
 
