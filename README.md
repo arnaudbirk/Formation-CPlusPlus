@@ -5,9 +5,12 @@
 
 ## 2. Base du C++
 
-* Premiers pas
-* Les variables
-* Les tests et les boucles
+* [Premiers pas](cours/2.PremierPas.md)
+* [Les variables](cours/2.variables.md)
+* [Les opérateurs](cours/2.operateurs.md)
+* [Les entrées/sorties](cours/2.in-out.md)
+* [Les tests](cours/2.tests.md)
+* [Les boucles](cours/2.boucles.md)
 * Organisation du code, fonction et structure
 
 ## 3. Flux et fichiers
