@@ -1,48 +1,47 @@
 # Formation C++
 
-## Plan
 
-1. [Historique du c++](cours/1.historique.md)
+## 1. [Historique du c++](cours/1.historique.md)
 
-2. Base du C++
+## 2. Base du C++
 
-    * Premiers pas
-    * Les variables
-    * Les tests et les boucles
-    * Organisation du code, fonction et structure
+* Premiers pas
+* Les variables
+* Les tests et les boucles
+* Organisation du code, fonction et structure
 
-3. Pointeur, allocations dynamique
+## 3. Flux et fichiers
 
-    * Pointeurs
-    * Références
-    * Les différents type de passage de paramètres
-    * Allocation dynamique
+## 4. Objets et classe, héritage
 
-4. Flux et fichiers
+* Les classes
+* Constructeurs et destructeur
+* Héritage
+* Surcharge d’opérateur
 
-5. Objets et classe, héritage
+## 5. Le polymorphisme
 
-    * Les classes
-    * Constructeurs et destructeur
-    * Héritage
-    * Surcharge d’opérateur
+* Présentation
+* Classe abstraite
 
-6. Le polymorphisme
+## 6. Pointeur, allocations dynamique
 
-    * Présentation
-    * Classe abstraite
+* Pointeurs
+* Références
+* Les différents type de passage de paramètres
+* Allocation dynamique
 
-7. La STL
+## 7. La STL
 
-    * Introduction
-    * La classe string
-    * Les conteneurs
-    * Les itérateurs
-    * Foncteurs et algorithmes
+* Introduction
+* La classe string
+* Les conteneurs
+* Les itérateurs
+* Foncteurs et algorithmes
 
-8. Les templates
+## 8. Les templates
 
-    * Introduction
-    * Spécialisation
+* Introduction
+* Spécialisation
 
-9. Exceptions
+## 9. Exceptions
