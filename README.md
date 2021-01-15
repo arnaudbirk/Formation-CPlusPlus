@@ -5,13 +5,13 @@
 
 ## 2. Base du C++
 
-* [Premiers pas](cours/2.PremierPas.md)
-* [Les variables](cours/2.variables.md)
-* [Les opérateurs](cours/2.operateurs.md)
-* [Les entrées/sorties](cours/2.in-out.md)
-* [Les tests](cours/2.tests.md)
-* [Les boucles](cours/2.boucles.md)
-* Organisation du code, fonction et structure
+* [Premiers pas](Cours/2.PremierPas.md)
+* [Les variables](Cours/2.variables.md)
+* [Les opérateurs](Cours/2.operateurs.md)
+* [Les entrées/sorties](Cours/2.in-out.md)
+* [Les tests](Cours/2.tests.md)
+* [Les boucles](Cours/2.boucles.md)
+* [Organisation du code, fonction et structure](Cours/2.fonctions.md)
 
 ## 3. Flux et fichiers
 
