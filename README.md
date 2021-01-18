@@ -13,7 +13,7 @@
 * [Les boucles](Cours/2.boucles.md)
 * [Organisation du code, fonction et structure](Cours/2.fonctions.md)
 
-## 3. Flux et fichiers
+## 3. [Flux et fichiers](Cours/3.flux.md)
 
 ## 4. Objets et classe, héritage
 
