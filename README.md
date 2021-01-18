@@ -17,10 +17,11 @@
 
 ## 4. Objets et classe, héritage
 
-* Les classes
-* Constructeurs et destructeur
-* Héritage
-* Surcharge d’opérateur
+* [Les classes](Cours/4.classes.md)
+* [Constructeurs et destructeur](Cours/4.constructeurs.md)
+* [Encapsulation](Cours/4.encapsulation.md)
+* [Héritage](Cours/4.heritage.md)
+* [Surcharge d’opérateur](Cours/4.surcharge.md)
 
 ## 5. Le polymorphisme
 
@@ -48,3 +49,5 @@
 * Spécialisation
 
 ## 9. Exceptions
+
+## 10. Doxygen
