@@ -22,11 +22,11 @@
 * [Encapsulation](Cours/4.encapsulation.md)
 * [Héritage](Cours/4.heritage.md)
 * [Surcharge d’opérateur](Cours/4.surcharge.md)
-* [Amitié](Cours/4.Amitié.md)
+* [Amitié](Cours/4.Amitie.md)
 
 ## 5. Pointeur, allocations dynamique
 
-* Pointeurs
+* [Pointeurs](Cours/5.pointeurs.md)
 * Références
 * Les différents type de passage de paramètres
 * Allocation dynamique
