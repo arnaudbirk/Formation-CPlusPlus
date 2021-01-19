@@ -22,18 +22,19 @@
 * [Encapsulation](Cours/4.encapsulation.md)
 * [Héritage](Cours/4.heritage.md)
 * [Surcharge d’opérateur](Cours/4.surcharge.md)
+* [Amitié](Cours/4.Amitié.md)
 
-## 5. Le polymorphisme
-
-* Présentation
-* Classe abstraite
-
-## 6. Pointeur, allocations dynamique
+## 5. Pointeur, allocations dynamique
 
 * Pointeurs
 * Références
 * Les différents type de passage de paramètres
 * Allocation dynamique
+
+## 6. Le polymorphisme
+
+* Présentation
+* Classe abstraite
 
 ## 7. La STL
 
@@ -50,4 +51,4 @@
 
 ## 9. Exceptions
 
-## 10. Doxygen
+## [10. Doxygen](Cours/10.Doxygen.md)
