@@ -29,7 +29,7 @@
 * [Pointeurs](Cours/5.pointeurs.md)
 * [Références](Cours/5.references.md)
 * [Les différents type de passage de paramètres](Cours/5.passage.md)
-* Allocation dynamique
+* [Allocation dynamique](Cours/5.allocations.md)
 
 ## 6. Le polymorphisme
 
