@@ -27,8 +27,8 @@
 ## 5. Pointeur, allocations dynamique
 
 * [Pointeurs](Cours/5.pointeurs.md)
-* Références
-* Les différents type de passage de paramètres
+* [Références](Cours/5.references.md)
+* [Les différents type de passage de paramètres](Cours/5.passage.md)
 * Allocation dynamique
 
 ## 6. Le polymorphisme
