@@ -1,4 +1,4 @@
-# Exercice 6
+# Exercice 11
 
 Ecrire une fonction qui multiplie un entier passé en paramètre par 2...
 
