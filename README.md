@@ -47,7 +47,7 @@
 * [La classe string](Cours/7.string.md)
 * [Les conteneurs](Cours/7.conteneurs.md)
 * [Les itérateurs](Cours/7.iterateurs.md)
-* Foncteurs et algorithmes
+* [Foncteurs et algorithmes](Cours/7.foncteurs.md)
 
 ## 9. Exceptions
 
