@@ -33,8 +33,8 @@
 
 ## 6. Les templates
 
-* Introduction
-* Spécialisation
+* [Introduction](Cours/6.templates.md)
+* [Spécialisation](Cours/6.specialisation.md)
 
 ## 7. Le polymorphisme
 
