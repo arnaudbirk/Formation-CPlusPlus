@@ -1,4 +1,4 @@
-# Exercice 13
+# Exercice 14
 
 * Créez une classe CCoord qui permettra de stocker des coordonnées  (entier ).
   * Ecrivez le constructeur qui prendra 2 entiers en entrée avec une valeur de 0 par défaut
