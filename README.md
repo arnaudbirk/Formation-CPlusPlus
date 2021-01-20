@@ -41,14 +41,14 @@
 * [Présentation](Cours/7.polymorphisme.md)
 * [Classe abstraite](Cours/7.classe-abstraite.md)
 
-## 7. La STL
+## 8. La STL
 
-* [Introduction](Cours/7.intro.md)
-* [La classe string](Cours/7.string.md)
-* [Les conteneurs](Cours/7.conteneurs.md)
-* [Les itérateurs](Cours/7.iterateurs.md)
-* [Foncteurs et algorithmes](Cours/7.foncteurs.md)
+* [Introduction](Cours/8.intro.md)
+* [La classe string](Cours/8.string.md)
+* [Les conteneurs](Cours/8.conteneurs.md)
+* [Les itérateurs](Cours/8.iterateurs.md)
+* [Foncteurs et algorithmes](Cours/8.foncteurs.md)
 
-## 9. Exceptions
+## 9. [Exceptions](Cours/9.exceptions.md)
 
 ## [10. Doxygen](Cours/10.Doxygen.md)
