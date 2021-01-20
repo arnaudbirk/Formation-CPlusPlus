@@ -31,10 +31,15 @@
 * [Les différents type de passage de paramètres](Cours/5.passage.md)
 * [Allocation dynamique](Cours/5.allocations.md)
 
-## 6. Le polymorphisme
+## 6. Les templates
 
-* Présentation
-* Classe abstraite
+* Introduction
+* Spécialisation
+
+## 7. Le polymorphisme
+
+* [Présentation](Cours/7.polymorphisme.md)
+* [Classe abstraite](Cours/7.classe-abstraite.md)
 
 ## 7. La STL
 
@@ -43,11 +48,6 @@
 * Les conteneurs
 * Les itérateurs
 * Foncteurs et algorithmes
-
-## 8. Les templates
-
-* Introduction
-* Spécialisation
 
 ## 9. Exceptions
 
