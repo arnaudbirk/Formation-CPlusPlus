@@ -43,10 +43,10 @@
 
 ## 7. La STL
 
-* Introduction
-* La classe string
-* Les conteneurs
-* Les itérateurs
+* [Introduction](Cours/7.intro.md)
+* [La classe string](Cours/7.string.md)
+* [Les conteneurs](Cours/7.conteneurs.md)
+* [Les itérateurs](Cours/7.iterateurs.md)
 * Foncteurs et algorithmes
 
 ## 9. Exceptions
