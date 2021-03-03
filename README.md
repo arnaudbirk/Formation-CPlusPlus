@@ -58,3 +58,43 @@
 * [Introduction](Cours/11.intro.md)
 * [Installation](Cours/11.installation.md)
 * [Test unitaires](Cours/11.tests.md)
+
+## Rappel de Cours
+
+Exercice
+
+## 12. Smart Pointeur (AL)
+
+* [Introduction](Cours/12.intro.md)
+
+## 16. Threads (AL)
+
+* [Introduction](Cours/16.intro.md)
+
+## 13. Design Pattern
+
+* [Introduction](Cours/13.intro.md) (AB)
+* [Pattern Singleton](Cours/13.singleton.md) (AL)
+* [Pattern Stratégie](Cours/13.strategie.md) (AB)
+* [Pattern Composite](Cours/13.composite.md) (AB)
+* [Pattern Visitor](Cours/13.visitor.md) (AL)
+* [Pattern Factory](Cours/13.factory.md) (AL)
+* [Pattern State](Cours/13.state.md) (AB)
+
+## 14. Concept Solid (AB)
+
+* [Introduction](Cours/14.intro.md)
+* [Introduction](Cours/14.intro.md)
+* [Introduction](Cours/14.intro.md)
+* [Introduction](Cours/14.intro.md)
+* [Introduction](Cours/14.intro.md)
+* [Introduction](Cours/14.intro.md)
+
+## 15. QT (AB)
+
+* [Introduction](Cours/15.intro.md)
+* [Signaux/Slots](Cours/15.signaux-slots.md)
+
+## C++11 VS C++14 (AL)
+
+* [Introduction](Cours/16.intro.md)
