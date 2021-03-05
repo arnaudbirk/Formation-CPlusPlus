@@ -13,4 +13,4 @@ Notre pointeur intéligent "my_shared_ptr" devra être capable :
 Et s'il on veut :
 * Avoir un accès au compteur de l'objet
 
-[Lien vers la correction](https://repl.it/@arnaudbirk/Exercice18#Exercice18.cpp)
+[Lien vers la correction](https://repl.it/@arnaudbirk/Exercice18#main.cpp)
