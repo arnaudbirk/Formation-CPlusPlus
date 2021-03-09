@@ -65,11 +65,15 @@ Exercice
 
 ## 12. Smart Pointeur (AL)
 
-* [Introduction](Cours/12.intro.md)
+* [Introduction](Cours/12.smartPointers.md)
 
-## 16. Threads (AL)
+## 13. Les fonctions Lambda (AL)
 
-* [Introduction](Cours/16.intro.md)
+* [Introduction](Cours/13.fnLambda.md)
+
+## 14. Threads (AL)
+
+* [Introduction](Cours/14.threads.md)
 
 ## 13. Design Pattern
 

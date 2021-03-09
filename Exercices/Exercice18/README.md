@@ -1,6 +1,6 @@
 # Exercice 18
 
-Dans cet exercice, noous allons créer notre propre shared_ptr.
+Dans cet exercice, nous allons créer notre propre shared_ptr.
 
 Notre pointeur intéligent "my_shared_ptr" devra être capable :
 * De gérer n'importe quel type d'objet
