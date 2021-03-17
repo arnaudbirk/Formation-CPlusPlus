@@ -1,0 +1,162 @@
+# Design Pattern - Factory
+
+La Fabrique est un patron de conception de création qui permet de créer des produits sans avoir à préciser leurs classes concrètes.
+
+La fabrique définit une méthode qui doit être utilisée pour créer des objets à la place de l’appel au constructeur (opérateur new). Les sous-classes peuvent redéfinir cette méthode pour modifier la classe des objets qui seront créés.
+
+Modèle UML :
+
+![Alt text](Factory.gif?raw=true "Factory") 
+
+Un exemple d'implémentation, une fabrique de véhicule (voiture, vélo, etc.)
+
+Prennons des classes de véhicules héritant d'une classe mère :
+
+``` c++
+
+enum etypeVehicule{
+    eVoiture,
+    eVelo
+};
+
+// classe virtuelle pure :
+class Vehicule {
+    public :
+    Vehicule(){;}
+    virtual ~Vehicule(){;}
+    virtual void rouler() =0;
+};
+
+// classes filles :
+class Voiture : public Vehicule {
+    public :
+    Voiture(){;}
+    inline void rouler(){ std::cout << "je polue" << std::endl;}
+};
+class Velo : public Vehicule {
+    public :
+    Velo();
+    inline void rouler(){ std::cout << "je ne polue pas" << std::endl;}
+};
+
+``` 
+
+On pourrait imaginer le système suivant :
+
+``` c++
+class fabriqueSimple {
+    public :
+    fabriqueSimple(){;}
+    Vehicule* creerVehicule(etypeVehicule type);
+};
+
+Vehicule* fabriqueSimple::creerVehicule(etypeVehicule type)
+{
+    if (type == eVoiture) return new Voiture;
+    if (type == eVelo) return new Velo;
+    return NULL;
+}
+
+``` 
+Le problème de cet exemple : 
+* On veut éviter le switch/case (série de if dans notre cas) qui peut être dangereuse (ça sent la copier-couiller…)
+* On veut éviter de modifier cette classe à chaque nouvel objet.
+
+Afin d’éviter la répétition de code, on va instancier :
+* une map permettant d’enregistrer les objets à créer
+* une fonstion Register() permettant de remplir la map 
+
+La factory de véhicule :
+
+``` c++
+/// fabrique :
+class fabrique {
+    
+    public :
+    
+    // constructeur :
+    fabrique();
+    
+    // enregistrement des objets :
+    static std::map<etypeVehicule,Vehicule*> m_map;
+    
+    // ajout de nouveau constructeur :
+    void Register(etypeVehicule type,Vehicule* vehicule);
+    
+    // creation des objets :
+    std::unique_ptr<Vehicule> creerVehicule(const etypeVehicule type);
+};
+``` 
+Le code cpp :
+
+``` c++
+
+//constructeur :
+fabrique::fabrique()
+{
+}
+
+//instantation de la map d'enregistrement des objets :
+std::map<etypeVehicule,Vehicule*> fabrique::m_map = std::map<etypeVehicule,Vehicule*>();
+
+//fonction register :
+void fabrique::Register(etypeVehicule type,Vehicule* vehicule)
+{
+    //si la clé n'est pas déjà présente
+    if(m_map.find(type)==m_map.end())
+    {
+        //on ajoute l'objet dans la map
+        m_map[type]=vehicule;
+    }
+}
+
+//creation des objets :
+std::unique_ptr<Vehicule> fabrique::creerVehicule(const etypeVehicule type)
+{
+    //declaration de l'objet NULL a renvoyé
+    std::unique_ptr<Vehicule> tmp;
+    
+    //on retrouve l'objet a creer dans la map
+    std::map<etypeVehicule, Vehicule*>::const_iterator it=m_map.find(type);
+    
+    //si l'itérateur ne vaut pas map.end(), cela signifie que que la clé à été trouvée
+    if(it!=m_map.end())
+    {
+        tmp.reset((*it).second);
+    }
+    
+    //on pourrait lancer une exeption si la clé n'a pas été trouvée
+    
+    return tmp;
+}
+
+``` 
+
+Dans le main :
+
+``` c++
+
+fabrique fab;
+fab.Register(etypeVehicule::eVelo, new Velo);
+fab.Register(etypeVehicule::eVoiture, new Voiture);
+
+std::unique_ptr<Vehicule> velo = fab.creerVehicule(etypeVehicule::eVelo);
+velo->rouler();
+
+```
+[L'implémentation](https://repl.it/@alavenant/Factory#main.cpp)
+
+Désormais, on peut créer tous les objets que l’on souhaite sans avoir besoin de modifier la classe « fabrique ».
+
+Pour aller plus loin :
+* Une fois que l’on récupère l’objet Vehicule, on ne connaît pas sa nature. On peut le caster en utilisant des fonctions du type isVelo(),isVoiture().
+* On voudrait qu’il existe une seule fabrique pour le programme : un singleton
+
+
+Exercice : transformer la fabrique ci-dessus en singleton
+
+[La correction](https://repl.it/@alavenant/Factory#main.cpp)
+
+Exercice : créer une fabrique générique pour tous type d’objet ayant un constructeur prenant les même paramètres
+
+Pour aller encore plus loin : la fabrique abstraite ?
