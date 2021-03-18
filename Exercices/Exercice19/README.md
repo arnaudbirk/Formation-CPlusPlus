@@ -4,7 +4,7 @@ Pour cet exercice, trier un tableau dans l’ordre croissant en utilisant la val
 
 Un autre exercice est de dire si une collection d’entiers est entièrement positive ou non. Pour cela on utilisera la fonction std::any_of, qui regarde si au moins un élément vérifier le prédicat.
 
-[Lien vers la correction](https://repl.it/@alavenant/Exercice18#main.cpp)
+[Lien vers la correction](https://repl.it/@alavenant/fnLambda#main.cpp)
 
 
 
