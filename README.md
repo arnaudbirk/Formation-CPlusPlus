@@ -94,10 +94,14 @@ Exercice
 * [Introduction](Cours/14.intro.md)
 * [Introduction](Cours/14.intro.md)
 
-## 15. QT (AB)
+## 15. CMake
 
-* [Introduction](Cours/15.intro.md)
-* [Signaux/Slots](Cours/15.signaux-slots.md)
+* [Introduction](Cours/15.CMake.md)
+
+## 16. QT (AB)
+
+* [Introduction](Cours/16.intro.md)
+* [Signaux/Slots](Cours/16.signaux-slots.md)
 
 ## C++11 VS C++14 (AL)
 
