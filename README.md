@@ -63,27 +63,27 @@
 
 Exercice
 
-## 12. Smart Pointeur (AL)
+## 12. Smart Pointeur
 
 * [Introduction](Cours/12.smartPointers.md)
 
-## 13. Les fonctions Lambda (AL)
+## 13. Les fonctions Lambda
 
 * [Introduction](Cours/13.fnLambda.md)
 
-## 14. Threads (AL)
+## 14. Threads
 
 * [Introduction](Cours/14.threads.md)
 
 ## 15. Design Pattern
 
-* [Introduction](Cours/15.intro.md) (AB)
-* [Pattern Singleton](Cours/15.singleton.md) (AL)
-* [Pattern Stratégie](Cours/15.strategie.md) (AB)
-* [Pattern Composite](Cours/15.composite.md) (AB)
-* [Pattern Visitor](Cours/15.visitor.md) (AL)
-* [Pattern Factory](Cours/15.factory.md) (AL)
-* [Pattern State](Cours/15.state.md) (AB)
+* [Introduction](Cours/15.intro.md)
+* [Pattern Singleton](Cours/15.Singleton.md)
+* [Pattern Factory](Cours/15.Factory.md)
+* [Pattern Visitor](Cours/15.Visitor.md) 
+* [Pattern Stratégie](Cours/15.Strategie.md) (AB)
+* [Pattern Composite](Cours/15.Composite.md) (AB)
+* [Pattern State](Cours/15.State.md) (AB)
 
 ## 14. Concept Solid (AB)
 
