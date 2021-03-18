@@ -94,9 +94,9 @@ Exercice
 * [Introduction](Cours/14.intro.md)
 * [Introduction](Cours/14.intro.md)
 
-## 15. CMake
+## 16. CMake
 
-* [Introduction](Cours/15.CMake.md)
+* [Introduction](Cours/16.CMake.md)
 
 ## 16. QT (AB)
 
