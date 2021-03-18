@@ -75,15 +75,15 @@ Exercice
 
 * [Introduction](Cours/14.threads.md)
 
-## 13. Design Pattern
+## 15. Design Pattern
 
-* [Introduction](Cours/13.intro.md) (AB)
-* [Pattern Singleton](Cours/13.singleton.md) (AL)
-* [Pattern Stratégie](Cours/13.strategie.md) (AB)
-* [Pattern Composite](Cours/13.composite.md) (AB)
-* [Pattern Visitor](Cours/13.visitor.md) (AL)
-* [Pattern Factory](Cours/13.factory.md) (AL)
-* [Pattern State](Cours/13.state.md) (AB)
+* [Introduction](Cours/15.intro.md) (AB)
+* [Pattern Singleton](Cours/15.singleton.md) (AL)
+* [Pattern Stratégie](Cours/15.strategie.md) (AB)
+* [Pattern Composite](Cours/15.composite.md) (AB)
+* [Pattern Visitor](Cours/15.visitor.md) (AL)
+* [Pattern Factory](Cours/15.factory.md) (AL)
+* [Pattern State](Cours/15.state.md) (AB)
 
 ## 14. Concept Solid (AB)
 
