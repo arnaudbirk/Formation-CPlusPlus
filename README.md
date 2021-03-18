@@ -80,8 +80,8 @@ Exercice
 * [Introduction](Cours/15.intro.md)
 * [Pattern Singleton](Cours/15.Singleton.md)
 * [Pattern Factory](Cours/15.Factory.md)
-* [Pattern Visitor](Cours/15.Visitor.md) 
-* [Pattern Stratégie](Cours/15.Strategie.md) (AB)
+* [Pattern Visitor](Cours/15.Visitor.md)
+* [Pattern Stratégie](Cours/15.strategie.md)
 * [Pattern Composite](Cours/15.Composite.md) (AB)
 * [Pattern State](Cours/15.State.md) (AB)
 
