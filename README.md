@@ -103,6 +103,6 @@ Exercice
 * [Introduction](Cours/16.intro.md)
 * [Signaux/Slots](Cours/16.signaux-slots.md)
 
-## C++11 VS C++14 (AL)
+## C++11, C++14, C++17
 
-* [Introduction](Cours/16.intro.md)
+* [Introduction](Cours/17.17.NouveautésCPP.md)
