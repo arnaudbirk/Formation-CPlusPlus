@@ -81,28 +81,28 @@ Exercice
 * [Pattern Singleton](Cours/15.Singleton.md)
 * [Pattern Factory](Cours/15.Factory.md)
 * [Pattern Visitor](Cours/15.Visitor.md)
-* [Pattern Stratégie](Cours/15.strategie.md)
-* [Pattern Composite](Cours/15.Composite.md) (AB)
+* [Pattern Stratégie](Cours/15.Strategie.md)
+* [Pattern Composite](Cours/15.Composite.md)
 * [Pattern State](Cours/15.State.md) (AB)
 
-## 14. Concept Solid (AB)
+## 16. Concept Solid
 
-* [Introduction](Cours/14.intro.md)
-* [Introduction](Cours/14.intro.md)
-* [Introduction](Cours/14.intro.md)
-* [Introduction](Cours/14.intro.md)
-* [Introduction](Cours/14.intro.md)
-* [Introduction](Cours/14.intro.md)
+* [Introduction](Cours/16.intro.md)
+* [Introduction](Cours/16.intro.md)
+* [Introduction](Cours/16.intro.md)
+* [Introduction](Cours/16.intro.md)
+* [Introduction](Cours/16.intro.md)
+* [Introduction](Cours/16.intro.md)
 
-## 16. CMake
+## 17. CMake
 
-* [Introduction](Cours/16.CMake.md)
+* [Introduction](Cours/17.CMake.md)
 
-## 16. QT (AB)
+## 18. QT (AB)
 
 * [Introduction](Cours/16.intro.md)
 * [Signaux/Slots](Cours/16.signaux-slots.md)
 
-## C++11 VS C++14 (AL)
+## 19. C++11 VS C++14 (AL)
 
 * [Introduction](Cours/16.intro.md)
