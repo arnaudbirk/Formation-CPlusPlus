@@ -105,4 +105,4 @@ Exercice
 
 ## 19. C++11 VS C++14
 
-* [Introduction](Cours/19.NouveautésCPP.md)
+* [Introduction](Cours/19.NewsCPP.md)
