@@ -59,10 +59,6 @@
 * [Installation](Cours/11.installation.md)
 * [Test unitaires](Cours/11.tests.md)
 
-## Rappel de Cours
-
-Exercice
-
 ## 12. Smart Pointeur
 
 * [Introduction](Cours/12.smartPointers.md)
@@ -83,7 +79,7 @@ Exercice
 * [Pattern Visitor](Cours/15.Visitor.md)
 * [Pattern Stratégie](Cours/15.Strategie.md)
 * [Pattern Composite](Cours/15.Composite.md)
-* [Pattern State](Cours/15.State.md) (AB)
+* [Pattern State](Cours/15.State.md)
 
 ## 16. Concept Solid
 
