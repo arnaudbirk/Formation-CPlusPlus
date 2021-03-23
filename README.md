@@ -83,12 +83,11 @@
 
 ## 16. Concept Solid
 
-* [Introduction](Cours/16.intro.md)
-* [Introduction](Cours/16.intro.md)
-* [Introduction](Cours/16.intro.md)
-* [Introduction](Cours/16.intro.md)
-* [Introduction](Cours/16.intro.md)
-* [Introduction](Cours/16.intro.md)
+* [**S** ingle responsibility principle / Principe de responsabilité unique](Cours/16.reponsabilite-unique.md)
+* [**O** pen close principle / Principe d'ouverture-fermeture](Cours/16.open-close.md)
+* [**L** iskov substitution principle / Principe de substitution de Liskov](Cours/16.liskov.md)
+* [**I** nterface segregation principle / Principe de ségrégation des interfaces](Cours/16.segregation.md)
+* [**D** ependency inversion principle / Principe d'inversion des dépendances](Cours/16.dependance.md)
 
 ## 17. CMake
 
