@@ -59,10 +59,6 @@
 * [Installation](Cours/11.installation.md)
 * [Test unitaires](Cours/11.tests.md)
 
-## Rappel de Cours
-
-Exercice
-
 ## 12. Smart Pointeur
 
 * [Introduction](Cours/12.smartPointers.md)
