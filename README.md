@@ -95,10 +95,10 @@
 
 * [Introduction](Cours/17.CMake.md)
 
-## 18. QT (AB)
+## 18. Qt5
 
-* [Introduction](Cours/16.intro.md)
-* [Signaux/Slots](Cours/16.signaux-slots.md)
+* [Introduction](Cours/18.intro.md)
+* [Premiers pas](Cours/18.premiers.md)
 
 ## 19. C++11 VS C++14
 
