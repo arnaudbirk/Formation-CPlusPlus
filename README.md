@@ -88,8 +88,9 @@
 * [**L** iskov substitution principle / Principe de substitution de Liskov](Cours/16.liskov.md)
 * [**I** nterface segregation principle / Principe de ségrégation des interfaces](Cours/16.segregation.md)
 * [**D** ependency inversion principle / Principe d'inversion des dépendances](Cours/16.dependance.md)
+* [Autres bonnes pratiques](Cours/16.bonnes_pratiques.md)
 
-## 17. CMake
+# 17. CMake
 
 * [Introduction](Cours/17.CMake.md)
 
