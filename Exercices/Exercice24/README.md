@@ -24,11 +24,11 @@ Afin de ne pas encombre le modèle de données de tous les appels algorithmiques
 => La classe Geometry ne contiendra plus qu'une fonction accept du visitor abstrait
 => créer les différents visitor (translate, print et rotate)
 
-[Lien vers la correction](https://replit.com/@alavenant/ExoDPGeometryVisitor#Visitor/visitorPrint.h)
+[Lien vers la correction](https://replit.com/@alavenant/ExoDPStrategy-1#main.cpp)
 
 ## Strategy
 
-On trouve que la méthode de calcul de l'enveloppe convexe du polygone n'est pas top... Surtout, l'ajout de nouveaux algorithme de calcul va allourdir la classe Polygon. Et que cette classe ne dépendent pas des types d'algorithmes.
+On trouve que la méthode de calcul de l'enveloppe convexe du polygone n'est pas top... Surtout, l'ajout de nouveaux algorithmes de calcul va allourdir la classe Polygon. Nous voudrions également que cette classe ne dépende pas de tous les algorithmes de calcul convexe.
 
 De plus, on voudrait rendre plus générique le calcul d'enveloppe convexe via le calcul sur un ensemble de points.
 
@@ -37,6 +37,8 @@ On se propose de refactorer cela via un pattern strategy. Réalisez ce refactori
 => créer une classe abstraite stratégie (convexhullstrategie) qui ne contient qu'une fonction execute (=0). Cette fonction peremttra le calcul de l'enveloppe. Elle a donc le même résultat. Par contre, puisque nous voulons la rendre générique, elle doit prendre un vecteur de points.
 => créer ensuite les différentes classes filles en fonction des 2 algorithmes (Jarvis et Graham).
 => enfin, modifier la classe Polygon pour qu'elle puisse prendre en compte ces calculs (cette classe ne voit que la classe abstraite).
+
+[Lien vers la correction](https://replit.com/@alavenant/ExoDPStrategy#main.cpp)
 
 ## Simple factory
 
