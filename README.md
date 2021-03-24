@@ -80,7 +80,7 @@
 * [Pattern Stratégie](Cours/15.Strategie.md)
 * [Pattern Composite](Cours/15.Composite.md)
 * [Pattern State](Cours/15.State.md)
-* [Exercice récapitulatif](Exercices/Exercice24/24.README.md)
+* [Exercice récapitulatif](Exercices/Exercice24/README.md)
 
 ## 16. Concept Solid
 
