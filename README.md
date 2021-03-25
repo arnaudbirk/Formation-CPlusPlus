@@ -100,6 +100,7 @@
 * [Introduction](Cours/18.intro.md)
 * [Premiers pas](Cours/18.premiers.md)
 * [Les layouts](Cours/18.layouts.md)
+* [Fenêtre principale](Cours/18.qmainwindow.md)
 
 ## 19. C++11 VS C++14
 
