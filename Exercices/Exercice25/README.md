@@ -2,7 +2,11 @@
 
 Créez un formulaire avec les entrées suivantes :
 
+* civilite [En s'appuyant sur la doc](https://doc.qt.io/qt-5/qcombobox.html)
 * Nom
-* Prenom
-* Age en utilisant une QComboBox [En s'appuyant sur la doc](https://doc.qt.io/qt-5/qcombobox.html) (Ce widget proposera des valeurs réalistes)
+* Prenom 
 * Un bouton Valider
+
+Les entrées des champs de saisies devront s'appuyer sur le layout ```QFormLayout```
+
+![Exo](exo.png)
