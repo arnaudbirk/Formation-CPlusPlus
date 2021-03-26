@@ -14,7 +14,7 @@ include_directories(include)
 file(GLOB_RECURSE SRC_FILES src/*.cpp include/*.h)
 
 #recherche de boost
-find_package( Boost REQUIRED COMPONENTS filesystem)
+find_package( Boost EXACT 1.72 REQUIRED COMPONENTS filesystem)
 
 #définition de l'executable
 add_executable(monProjetCMake ${SRC_FILES})
