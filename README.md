@@ -91,7 +91,7 @@
 * [**D** ependency inversion principle / Principe d'inversion des dépendances](Cours/16.dependance.md)
 * [Autres bonnes pratiques](Cours/16.bonnes_pratiques.md)
 
-# 17. CMake
+## 17. CMake
 
 * [Introduction](Cours/17.CMake.md)
 
@@ -102,6 +102,7 @@
 * [Les layouts](Cours/18.layouts.md)
 * [Fenêtre principale](Cours/18.qmainwindow.md)
 * [Les Signaux et les Slots QT](Cours/18.signaux-slots.md)
+* [QThread](Cours/18.qthread.md)
 
 ## 19. C++11 VS C++14
 
